@@ -1,0 +1,9 @@
+<app-tabs>
+  <button (click)="cycleTab()"></button>
+  <tab-title></tab-title>
+  <tab-component></tab-component>
+  <div class="container">
+    <ng-content select="tab-title"></ng-content>
+    <ng-content select="tab-content"></ng-content>
+  </div>
+</app-tabs>

@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      <app-game-control (numberEmitter)="pushNumber($event)"></app-game-control>
+      <hr>
+      <div class="container" style="display:flex">
+        <app-odd class="col-xs-6" [oddNumbers]="oddNumbers"></app-odd>
+        <app-even class="col-xs-6">
+          <li *ngFor="let number of evenNumbers" class="list-group-item">
+            <span>{{'New even number: ' + number}}</span>
+          </li>
+        </app-even>
+      </div>
+    </div>
+  </div>
+</div>

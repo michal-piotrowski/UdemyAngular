@@ -1,0 +1,10 @@
+<button
+  class="btn btn-primary"
+  [disabled]="gameStarted"
+  (click)="startEmitting()">Start Game</button>
+
+<button
+  class="btn btn-danger"
+  [disabled]="!gameStarted"
+  (click)="pauseEmitting()">Pause Game</button>
+<br><br>

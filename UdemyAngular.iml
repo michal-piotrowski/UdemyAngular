@@ -3,8 +3,14 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/basics-assignment-3-start/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/basics-assignment-3-start/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/basics-components/dist" />
       <excludeFolder url="file://$MODULE_DIR$/basics-components/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/cmp-databinding-start/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/cmp-databinding-start/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/directives-start/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/directives-start/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/dist" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
