@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "UdemyAngular"
+  "defaultProject": "UdemyAngular",
+  "cli": {
+    "analytics": "6798dd89-2d8d-4d29-ac16-4727c4f9e378"
+  }
 }

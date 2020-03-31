@@ -1,10 +1,26 @@
-<button
-  class="btn btn-primary"
-  [disabled]="gameStarted"
-  (click)="startEmitting()">Start Game</button>
+<!--<button-->
+  <!--class="btn btn-primary"-->
+  <!--[disabled]="gameStarted"-->
+  <!--(click)="startEmitting()">Start Game</button>-->
 
-<button
-  class="btn btn-danger"
-  [disabled]="!gameStarted"
-  (click)="pauseEmitting()">Pause Game</button>
-<br><br>
+<!--<button-->
+  <!--class="btn btn-danger"-->
+  <!--[disabled]="!gameStarted"-->
+  <!--(click)="pauseEmitting()">Pause Game</button>-->
+<!--<br><br>-->
+
+
+<div class="col-xs-6">
+  <button
+    class="btn btn-success btn-outline btn-block"
+    (click)="startEmitting()">
+    Start Game
+  </button>
+</div>
+<div class="col-xs-6">
+  <button
+    class="btn btn-danger btn-outline btn-block"
+    (click)="pauseEmitting()">
+    Pause Game
+  </button>
+</div>
